@@ -162,6 +162,8 @@ void loop() {
     }
   }
 }
+ser = serial.Serial('COM3', 9600)  # تغيير إلى المنفذ الصحيح 
+python main.py
 opencv-python
 numpy
 pyserial
